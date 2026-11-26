@@ -6,7 +6,7 @@ if previous and type(previous.unload) == "function" then
 end
 
 local ui = loadstring(game:HttpGet(
-    "https://raw.githubusercontent.com/xqmt/shitaro-bloxstrike-ui-library/refs/heads/main/Library.lua"
+    "loadstring(game:HttpGet("https://raw.githubusercontent.com/Unwalker1337/shitaro-bloxstrike-ui-library/main/example.lua"))()"
 ))()
 
 environment.shitaro_bloxstrike_ui_demo = ui
